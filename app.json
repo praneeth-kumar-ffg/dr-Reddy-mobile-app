@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Dr Reddy Foundation Alumni Connect",
+    "slug": "drrf-alumni-connect",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "ios": {
+      "bundleIdentifier": "com.jpmc.drrf",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jpmc.drrf",
+      "versionCode": 1
+    },
+    "splash": {
+      "image": "./assets/logo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "Dr Reddy Foundation Alumni Connect"
+  }
+}
